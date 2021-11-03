@@ -21,11 +21,11 @@ function App() {
   
   return (
     <div className="App">
-      <Top data={info} />
       <p>
         Read through the instructions in the README.md file to build your NASA
         app! Have fun <span role="img" aria-label='go!'>🚀</span>!
       </p>
+      <Top data={info} />
     </div>
   );
 }
